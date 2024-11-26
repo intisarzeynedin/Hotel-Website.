@@ -12,7 +12,7 @@ body{
  line-height: 1.7em;
 }
 a{
-    color: #333 ;
+    color:black ;
     text-decoration: none;
 
 }
@@ -43,7 +43,7 @@ p {
     display: inline-block;
     font-size: 10px;
     color: #fff;
-    background: #333;
+    background: black;
     padding: 13px 20px;
     border: none;
     cursor: pointer;
@@ -52,25 +52,25 @@ p {
 
 .btn:hover{
     background: #f7c08a;
-    color: #333;
+    color:black ;
 }
 
 .btn-light{
     background: #f4f4f4;
-    color: #333;
+    color:black;
 }
 .bg-dark{
-    background: #333;
+    background: black;
     color: #fff;
 }
 
 .bg-light{
     background: #f4f4f4;
-    color: #333;
+    color:black;
 }
 .bg-primary{
     background:#f7c08a;
-    color: #333
+    color:black
 }
 
 .clr{
@@ -95,7 +95,7 @@ p {
 
 
 #navbar{
-    background-color: #333;
+    background-color:black;
     color: #fff;
     overflow: auto;
 
@@ -136,7 +136,7 @@ p {
 
 #showcase {
 
-    background:url('../img/showcase.jpg') no-repeat center center/cover ;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/photo-15.avif') no-repeat center center/cover ;
     height: 600px;
 }
 
@@ -161,19 +161,14 @@ p {
     height: 450px;
 }
 
-#home-info .info-img{
-    float: left;
-    width: 50%;
-    background: url('../img/photo-1.jpg') ;
-    min-height: 100%;
-}
+
 
 #home-info .info-content{
     float: right;
-    width: 50%;
+    width: 100%;
     height: 100%;
     text-align: center;
-    padding: 50px 30px;
+    padding: 50px 80px;
     overflow: hidden;
 }
 
@@ -275,7 +270,7 @@ p {
 
 #main-footer{
     text-align: center;
-    background: #444 ;
+    background: black ;
     color: #fff;
     padding: 20px;
 }
