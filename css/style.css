@@ -10,6 +10,8 @@ body{
 
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
  line-height: 1.7em;
+
+
 }
 a{
     color:black ;
@@ -29,10 +31,13 @@ p {
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
+   
+
 }
 
 .text-primary{
     color: #f7c08a;
+
 }
 
 .lead{
@@ -56,7 +61,7 @@ p {
 }
 
 .btn-light{
-    background: #f4f4f4;
+    background:#f4f4f4;
     color:black;
 }
 .bg-dark{
@@ -65,12 +70,13 @@ p {
 }
 
 .bg-light{
-    background: #f4f4f4;
+    background: #fff7f7;
     color:black;
 }
 .bg-primary{
-    background:#f7c08a;
-    color:black
+    background:#f7c08a 
+   
+    
 }
 
 .clr{
@@ -80,6 +86,7 @@ p {
 .l-heading{
     font-size: 40px;
     line-height: 1.2;
+    color: #f4f4f4;
  
 }
 .py-1{
@@ -168,7 +175,7 @@ p {
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 50px 80px;
+    padding: 90px 80px;
     overflow: hidden;
 }
 
@@ -187,8 +194,16 @@ p {
     margin-bottom: 10px;
 }
 
-
-
+#about-info{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-bottom: 160px;
+    text-align: center;
+  
+}
+.p{ 
+    padding-top: 10px;
+    color: #f4f4f4;
+}
 
 #about-info .info-right{
   float: right;
@@ -204,15 +219,17 @@ p {
   
 #about-info .info-left{
      float: left;
-     width: 50%;
+     width: 100%;
      min-height: 100%;
+     
+     
 }
 
 
 #testimonials {
     height: 100% ;
-    background: url('../img/test-bg.jpg') no-repeat center center/cover;
-    padding-top: 100px;
+   background: black;
+    padding-top: 70px;
   }
   
   #testimonials h2 {
