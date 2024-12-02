@@ -5,7 +5,7 @@ $password = "";
 $dbname = "hoteldb"; 
 
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $hoteldb);
 
 
 if ($conn->connect_error) {
